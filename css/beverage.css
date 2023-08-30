@@ -1,0 +1,28 @@
+.beverage-list-content {
+    color: aliceblue;
+    text-align: center;
+}
+.beverage-list-content h5 {
+    margin: 80px 0 60px 0;
+    color: rgb(252, 255, 240);
+    opacity: 0.6;
+
+}
+.beverage-list {
+    display: grid;
+    grid-template-columns: repeat(3, calc(33.333% - 20px));
+    gap: 60px 40px; 
+    justify-content: flex-start;
+   
+  }
+    
+  .beverage-list > div {
+    margin: 0 10px;  
+    text-align: left;
+  }
+    
+  .beverage-list > div img {
+    max-width: 100%;  
+    height: auto;
+    margin-bottom: 20px;
+  }

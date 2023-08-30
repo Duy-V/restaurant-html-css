@@ -1,0 +1,18 @@
+/* ------------------------RESET CSS----------------------- */
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+    font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+  }
+  body {
+    margin: 0;
+    padding:0
+  }
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  main {
+    display: block;
+  }

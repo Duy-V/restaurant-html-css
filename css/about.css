@@ -1,0 +1,42 @@
+.about-us {
+    font-family: Arial, sans-serif;
+    text-align: left;
+    color:azure;
+    padding-bottom:30px
+  }
+  
+  .about-us-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about-us-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;  
+    margin-bottom: 20px;
+    max-width: 1200px; 
+  }
+  
+  .about-us-item img {
+    flex: 1;
+    max-width: 50%;  
+    height: auto;
+    margin-right: 20px;  
+  }
+  
+  .about-us-text {
+    flex: 2;
+    text-align: center;
+  }
+  .about-us-text p{
+  line-height: 1.6;
+  }
+  
+  .about-us-title {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  

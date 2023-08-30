@@ -1,0 +1,18 @@
+.reservation {
+    display: flex;
+    flex-direction: column;
+    color:azure
+}
+.reservation .content {
+    text-align: center;
+}
+.reservation h4 {
+    text-align: left;
+}
+
+.content h2 {
+    margin:60px 0 30px 0
+}
+.content p{
+    line-height: 1.6;
+}

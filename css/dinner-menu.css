@@ -1,0 +1,38 @@
+.detail-menu {
+    color:whitesmoke;
+    display: flex;
+flex-direction: column;
+align-items: start;
+margin-top:50px;
+}
+.detail-menu p{
+line-height: 1.5;
+font-size:15px;
+color:rgb(239, 242, 204);
+opacity:0.6
+
+}
+.title-detail-menu {
+    letter-spacing: 2px;
+}
+.detail-menu-content {
+    padding-left:190px
+}
+
+
+.content {
+    flex-grow: 1;  
+    margin-right: 10px;  
+}
+
+hr {
+    height: 0.5px;  
+    margin: 40px 0; 
+    border: none;  
+    background-color: #ccc   
+}
+.food-name {
+    font-size:20px;
+    color:whitesmoke;
+    opacity: 1 !important; 
+}
